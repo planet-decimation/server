@@ -12,7 +12,7 @@ namespace server
     {
         public static void Main(string[] args)
         {
-            var host = CreateWebHostBuilder(args).Build();
+            var host = CreateWebHostBuilder(args).UseUrls("http://0.0.0.0:5000").Build();
 
             // Initializes db.
             using (var scope = host.Services.CreateScope())

@@ -116,7 +116,7 @@ namespace server
 
             //app.AddSeedData();
 
-            app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
 
             app.UseSwagger();
             app.UseSwaggerUI(
