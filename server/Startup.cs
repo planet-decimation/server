@@ -11,13 +11,13 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using SampleWebApiAspNetCore.Dtos;
-using SampleWebApiAspNetCore.Entities;
-using SampleWebApiAspNetCore.Repositories;
-using SampleWebApiAspNetCore.Services;
+using server.Dtos;
+using server.Entities;
+using server.Repositories;
+using server.Services;
 using Swashbuckle.AspNetCore.Swagger;
 
-namespace WebApplication11
+namespace server
 {
     public class Startup
     {

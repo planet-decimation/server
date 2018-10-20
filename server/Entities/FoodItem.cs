@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SampleWebApiAspNetCore.Entities
+namespace server.Entities
 {
     public class FoodItem
     {

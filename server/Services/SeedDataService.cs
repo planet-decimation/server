@@ -1,9 +1,9 @@
-﻿using SampleWebApiAspNetCore.Entities;
-using SampleWebApiAspNetCore.Repositories;
+﻿using server.Entities;
+using server.Repositories;
 using System;
 using System.Threading.Tasks;
 
-namespace SampleWebApiAspNetCore.Services
+namespace server.Services
 {
     public class SeedDataService : ISeedDataService
     {

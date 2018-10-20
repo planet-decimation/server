@@ -1,12 +1,12 @@
-﻿using SampleWebApiAspNetCore.Entities;
-using SampleWebApiAspNetCore.Helpers;
-using SampleWebApiAspNetCore.Models;
+﻿using server.Entities;
+using server.Helpers;
+using server.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Dynamic.Core;
 
-namespace SampleWebApiAspNetCore.Repositories
+namespace server.Repositories
 {
     public class EfFoodRepository : IFoodRepository
     {

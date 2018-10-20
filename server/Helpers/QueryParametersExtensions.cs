@@ -1,8 +1,8 @@
 using System;
 using System.Linq;
-using SampleWebApiAspNetCore.Models;
+using server.Models;
 
-namespace SampleWebApiAspNetCore.Helpers
+namespace server.Helpers
 {
     public static class QueryParametersExtensions
     {

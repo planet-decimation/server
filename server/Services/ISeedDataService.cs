@@ -1,7 +1,7 @@
-﻿using SampleWebApiAspNetCore.Repositories;
+﻿using server.Repositories;
 using System.Threading.Tasks;
 
-namespace SampleWebApiAspNetCore.Services
+namespace server.Services
 {
     public interface ISeedDataService
     {

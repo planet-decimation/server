@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace SampleWebApiAspNetCore.Dtos
+namespace server.Dtos
 {
     public class FoodUpdateDto
     {

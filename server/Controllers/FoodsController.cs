@@ -1,16 +1,16 @@
 ﻿using System;
 using System.Linq;
 using AutoMapper;
-using SampleWebApiAspNetCore.Dtos;
+using server.Dtos;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
-using SampleWebApiAspNetCore.Repositories;
+using server.Repositories;
 using System.Collections.Generic;
-using SampleWebApiAspNetCore.Entities;
-using SampleWebApiAspNetCore.Models;
-using SampleWebApiAspNetCore.Helpers;
+using server.Entities;
+using server.Models;
+using server.Helpers;
 
-namespace SampleWebApiAspNetCore.v1.Controllers
+namespace server.Controllers
 {
     [ApiVersion("1.0")]
     [Route("api/v{version:apiVersion}/[controller]")]

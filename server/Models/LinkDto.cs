@@ -1,4 +1,4 @@
-namespace SampleWebApiAspNetCore.Models
+namespace server.Models
 {
     public class LinkDto
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SampleWebApiAspNetCore.Dtos
+namespace server.Dtos
 {
     public class FoodItemDto
     {

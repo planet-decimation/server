@@ -1,7 +1,7 @@
 using System;
 using System.Linq;
 
-namespace SampleWebApiAspNetCore.Models
+namespace server.Models
 {
     public class QueryParameters
     {
